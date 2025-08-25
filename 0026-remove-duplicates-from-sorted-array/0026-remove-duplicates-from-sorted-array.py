@@ -1,24 +1,10 @@
-class Solution(object):
+class Solution:
     def removeDuplicates(self, nums):
+        i = 0
 
-        start = 0
-        count = 0
-
-        while (1):
-            try:
-                if nums[start] == nums[start + 1] and nums[start] is not 101:
-                    nums.pop(start)
-                    nums.append(101)
-                else:
-
-                    if nums[start] is not 101:
-                        count += 1
-
-                    start += 1
-            except:
-                if nums[-1] != 101:
-                    count += 1
-                
-                break
+        for j in range(1, len(nums)):
+            if nums[j] != nums[i]:
+                i += 1
+                nums[i] = nums[j]
         
-        return count
+        return i + 1
