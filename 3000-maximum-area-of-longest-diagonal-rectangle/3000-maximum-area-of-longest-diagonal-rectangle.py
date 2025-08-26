@@ -12,7 +12,7 @@ class Solution(object):
         for i in range(len(dimensions)):
             x = dimensions[i][0]
             y = dimensions[i][1]
-            z = math.sqrt(x * x + y * y)
+            z = x * x + y * y
 
             if maximumDiagonal < z:
                 maximumDiagonal = z
