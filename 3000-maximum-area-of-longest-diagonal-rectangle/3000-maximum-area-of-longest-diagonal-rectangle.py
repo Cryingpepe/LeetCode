@@ -18,6 +18,6 @@ class Solution(object):
                 maximumDiagonal = z
                 result = x * y
             elif z == maximumDiagonal:
-                result = max(result, x*y)
+                result = max(result, x * y)
         
         return result
