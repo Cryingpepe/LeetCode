@@ -1,5 +1,3 @@
-import math
-
 class Solution(object):
     def areaOfMaxDiagonal(self, dimensions):
         """
