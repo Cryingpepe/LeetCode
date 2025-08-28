@@ -15,16 +15,24 @@ class Solution(object):
             else:
                 dictForChr[i] += 1
 
-        try:
-            for i in ransomNote:
+        for i in ransomNote:
+            if i in dictForChr and dictForChr[i] > 0:
                 dictForChr[i] -= 1
-        except:
-            return False
+            else:
+                return False
+
+        return True
+
+        # try:
+        #     for i in ransomNote:
+        #         dictForChr[i] -= 1
+        # except:
+        #     return False
         
-        if min(dictForChr.values()) < 0:
-            return False
-        else:
-            return True
+        # if min(dictForChr.values()) < 0:
+        #     return False
+        # else:
+        #     return True
 
             
              
