@@ -6,26 +6,27 @@ class Solution(object):
         :rtype: bool
         """
 
-        if len(s) != len(t):
-            return False
+        # if len(s) != len(t):
+        #     return False
         
-        dictForS = {}
-        dictForT = {}
+        # dictForS = {}
+        # dictForT = {}
         
-        for i, char in enumerate(s):
-            if char not in dictForS:
-                dictForS[char] = [i]
-            else:
-                dictForS[char].append(i)
+        # for i, char in enumerate(s):
+        #     if char not in dictForS:
+        #         dictForS[char] = [i]
+        #     else:
+        #         dictForS[char].append(i)
         
-        for i, char in enumerate(t):
-            if char not in dictForT:
-                dictForT[char] = [i]
-            else:
-                dictForT[char].append(i)
+        # for i, char in enumerate(t):
+        #     if char not in dictForT:
+        #         dictForT[char] = [i]
+        #     else:
+        #         dictForT[char].append(i)
 
-        for i in range(len(s)):
-            if dictForS[s[i]] != dictForT[t[i]]:
-                return False
+        # for i in range(len(s)):
+        #     if dictForS[s[i]] != dictForT[t[i]]:
+        #         return False
         
-        return True
+        # return True
+        return len(set(zip(s, t))) == len(set(s)) == len(set(t))
