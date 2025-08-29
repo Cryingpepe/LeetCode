@@ -5,9 +5,12 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
+
+        if len(s) != len(t):
+            return False
         
-        dictForS = OrderedDict()
-        dictForT = OrderedDict()
+        dictForS = {}
+        dictForT = {}
         
         for i, char in enumerate(s):
             if char not in dictForS:
@@ -21,11 +24,8 @@ class Solution(object):
             else:
                 dictForT[char].append(i)
 
-        if dictForS.values() == dictForT.values():
-            return True
-        else:
-            print(dictForS)
-            print(dictForT)
-            print(dictForS.values())
-            print(dictForT.values())
-            return False
+        for i in range(len(s)):
+            if dictForS[s[i]] != dictForT[t[i]]:
+                return False
+        
+        return True
