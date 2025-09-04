@@ -6,15 +6,15 @@
 #         self.right = right
 class Solution(object):
 
-    def build(self, inorder, postorder):
-        if inorder:
-            idx = inorder.index(postorder.pop())
-            root = TreeNode(inorder[idx])
-            
-            root.right = self.build(inorder[idx+1:], postorder)
-            root.left = self.build(inorder[:idx], postorder)
+    # def build(self, inorder, postorder):
+    #     if inorder:
+    #         idx = inorder.index(postorder.pop())
+    #         root = TreeNode(inorder[idx])
 
-            return root
+    #         root.right = self.build(inorder[idx+1:], postorder)
+    #         root.left = self.build(inorder[:idx], postorder)
+
+    #         return root
 
 
     def buildTree(self, inorder, postorder):
@@ -24,4 +24,23 @@ class Solution(object):
         :rtype: Optional[TreeNode]
         """
 
-        return self.build(inorder, postorder)
+        # return self.build(inorder, postorder)
+
+
+        idx_map = {val: i for i, val in enumerate(inorder)}
+
+        def build(in_left, in_right):
+            if in_left > in_right:
+                return None
+
+            root_val = postorder.pop()
+            root = TreeNode(root_val)
+
+            idx = idx_map[root_val]
+
+            root.right = build(idx + 1, in_right)
+            root.left = build(in_left, idx - 1)
+
+            return root
+
+        return build(0, len(inorder) - 1)
