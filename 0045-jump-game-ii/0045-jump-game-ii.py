@@ -5,21 +5,18 @@ class Solution(object):
         :rtype: int
         """
         
-        maxReach = 0
         count = 0
-        maxList = []
+        maxIdx = 0
+        maxReach = 0
+        
+        for i in range(len(nums) - 1):
 
-        for i, num in enumerate(nums):
+            maxReach = max(maxReach, i + nums[i])
             
-            if maxReach >= len(nums) - 1:
-                return count
-
-            if maxReach < i + num and maxReach > i:
-                maxList.append(i + num)
-            elif maxReach < i + num and maxReach <= i:
-                maxList.append(i + num)
-                maxReach = max(maxList)
+            if i == maxIdx:
                 count += 1
-
+                maxIdx = maxReach
+        
+        return count
 
             
