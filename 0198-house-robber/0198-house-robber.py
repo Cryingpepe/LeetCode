@@ -3,13 +3,13 @@ class Solution(object):
 
         n = len(nums)
 
-        if n < 3:
+        if n < 3:    # if n is less than 3, it can be caluated with the base cases
             return max(nums)
-        elif n == 3:
+        elif n == 3:      # if n is equal to 3, than there is only one addition needed
             nums[2] = nums[2] + nums[0]
             return max(nums)
-        else:
-            nums[2] = nums[2] + nums[0]
+        else:       # else, set base case for index 2
+            nums[2] = nums[2] + nums[0]    
 
         for i in range(3, n):
             
