@@ -15,6 +15,8 @@ class Solution:
 
                 for i in range(queue.index(char) + 1):
                     queue.popleft()
+                
+                queue.append(char)
                     
         if len(queue) > result:
             result = len(queue)
