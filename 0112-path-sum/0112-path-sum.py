@@ -28,8 +28,6 @@ class Solution:
         
         dfs(root, 0)
 
-        print(sumList)
-
         if targetSum in sumList:
             return True
         else:
