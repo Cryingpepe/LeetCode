@@ -5,13 +5,17 @@ class Solution:
         hashMap = {}
 
         for i in nums:
-            if i not in hashMap and i - 1 not in hashMap and i + 1 not in hashMap:
+
+            if i in hashMap:
+                continue
+            
+            if i - 1 not in hashMap and i + 1 not in hashMap:
                 hashMap[i] = 1
 
                 if hashMap[i] > maxLength:
                     maxLength = hashMap[i]
 
-            if i not in hashMap and i - 1 in hashMap and i + 1 not in hashMap:
+            elif i - 1 in hashMap and i + 1 not in hashMap:
                 leftEndNum = i - hashMap[i - 1]
 
                 hashMap[i] = hashMap[leftEndNum] + 1
@@ -20,7 +24,7 @@ class Solution:
                 if hashMap[leftEndNum] > maxLength:
                     maxLength = hashMap[leftEndNum]
 
-            if i not in hashMap and i - 1 not in hashMap and i + 1 in hashMap:
+            elif i - 1 not in hashMap and i + 1 in hashMap:
                 rightEndNum = i + hashMap[i + 1]
 
                 hashMap[i] = hashMap[rightEndNum] + 1
@@ -29,7 +33,7 @@ class Solution:
                 if hashMap[rightEndNum] > maxLength:
                     maxLength = hashMap[rightEndNum]
 
-            if i not in hashMap and i - 1 in hashMap and i + 1 in hashMap:
+            else:
                 rightEndNum = i + hashMap[i + 1]
                 leftEndNum = i - hashMap[i - 1]
 
