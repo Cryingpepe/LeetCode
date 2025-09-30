@@ -10,8 +10,9 @@ class Solution:
 
             if i - 1 not in hashMap and i + 1 not in hashMap:
                 hashMap[i] = 1
-                if hashMap[i] > maxLength:
-                    maxLength = hashMap[i]
+                
+                maxLength = max(maxLength, 1)
+
 
             elif i - 1 in hashMap and i + 1 not in hashMap:
                 leftEndNum = i - hashMap[i - 1]
@@ -20,8 +21,7 @@ class Solution:
                 hashMap[i] = newLen
                 hashMap[leftEndNum] = newLen
 
-                if newLen > maxLength:
-                    maxLength = newLen
+                maxLength = max(maxLength, newLen)
 
             elif i - 1 not in hashMap and i + 1 in hashMap:
                 rightEndNum = i + hashMap[i + 1]
@@ -30,8 +30,7 @@ class Solution:
                 hashMap[i] = newLen
                 hashMap[rightEndNum] = newLen
 
-                if newLen > maxLength:
-                    maxLength = newLen
+                maxLength = max(maxLength, newLen)
 
             else:
                 rightEndNum = i + hashMap[i + 1]
@@ -43,8 +42,7 @@ class Solution:
                 hashMap[rightEndNum] = totalLen
                 hashMap[i] = totalLen
 
-                if totalLen > maxLength:
-                    maxLength = totalLen
+                maxLength = max(maxLength, totalLen)
             
         return maxLength
             
