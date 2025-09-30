@@ -13,7 +13,6 @@ class Solution:
                 
                 maxLength = max(maxLength, 1)
 
-
             elif i - 1 in hashMap and i + 1 not in hashMap:
                 leftEndNum = i - hashMap[i - 1]
                 newLen = hashMap[leftEndNum] + 1
