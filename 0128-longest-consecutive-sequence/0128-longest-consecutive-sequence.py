@@ -5,45 +5,48 @@ class Solution:
         hashMap = {}
 
         for i in nums:
-
             if i in hashMap:
                 continue
-            
+
             if i - 1 not in hashMap and i + 1 not in hashMap:
                 hashMap[i] = 1
-
                 if hashMap[i] > maxLength:
                     maxLength = hashMap[i]
 
             elif i - 1 in hashMap and i + 1 not in hashMap:
                 leftEndNum = i - hashMap[i - 1]
+                newLen = hashMap[leftEndNum] + 1
 
-                hashMap[i] = hashMap[leftEndNum] + 1
-                hashMap[leftEndNum] += 1
+                hashMap[i] = newLen
+                hashMap[leftEndNum] = newLen
 
-                if hashMap[leftEndNum] > maxLength:
-                    maxLength = hashMap[leftEndNum]
+                if newLen > maxLength:
+                    maxLength = newLen
 
             elif i - 1 not in hashMap and i + 1 in hashMap:
                 rightEndNum = i + hashMap[i + 1]
+                newLen = hashMap[rightEndNum] + 1
 
-                hashMap[i] = hashMap[rightEndNum] + 1
-                hashMap[rightEndNum] += 1
+                hashMap[i] = newLen
+                hashMap[rightEndNum] = newLen
 
-                if hashMap[rightEndNum] > maxLength:
-                    maxLength = hashMap[rightEndNum]
+                if newLen > maxLength:
+                    maxLength = newLen
 
             else:
                 rightEndNum = i + hashMap[i + 1]
                 leftEndNum = i - hashMap[i - 1]
 
-                temp = hashMap[rightEndNum]
-                hashMap[rightEndNum] += hashMap[leftEndNum] + 1
-                hashMap[leftEndNum] += temp + 1
-                hashMap[i] = hashMap[rightEndNum]
+                totalLen = hashMap[leftEndNum] + hashMap[rightEndNum] + 1
 
-                if hashMap[rightEndNum] > maxLength:
-                    maxLength = hashMap[rightEndNum]
+                hashMap[leftEndNum] = totalLen
+                hashMap[rightEndNum] = totalLen
+                hashMap[i] = totalLen
+
+                if totalLen > maxLength:
+                    maxLength = totalLen
+            
+        return maxLength
             
         return maxLength
             
