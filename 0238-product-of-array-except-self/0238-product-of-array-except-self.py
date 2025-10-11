@@ -1,38 +1,30 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         
-        # total = 0
-        # result = []
+        total = 0
+        result = []
+        zeros = 0
 
-        # hashMap = Counter(nums)
+        for i in nums:
+            if i == 0:
+                zeros += 1
 
-        # if hashMap[0] < 2:
+        if zeros < 2:
             
-        #     for i in nums:    
-        #         if i != 0 and total != 0:
-        #             total *= i
-        #         elif i != 0 and total == 0:
-        #             total += i
+            for i in nums:    
+                if i != 0 and total != 0:
+                    total *= i
+                elif i != 0 and total == 0:
+                    total += i
         
-        # if 0 in nums:
-        #     for i in nums:
-        #         if i == 0:
-        #             result.append(total)
-        #         else:
-        #             result.append(0)
-        # else:
-        #     for i in nums:
-        #         result.append(total // i)
+        if 0 in nums:
+            for i in nums:
+                if i == 0:
+                    result.append(total)
+                else:
+                    result.append(0)
+        else:
+            for i in nums:
+                result.append(total // i)
         
-        # return result
-
-        prefProd = 1
-        res = [1] * len(nums)
-        for i in range(1, len(nums)):
-            prefProd *= nums[i - 1]
-            res[i] = prefProd
-        sufProd = 1
-        for i in range(len(nums)-2, -1, -1):
-            sufProd *= nums[i + 1]
-            res[i] *= sufProd
-        return res
+        return result
