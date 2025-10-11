@@ -4,12 +4,15 @@ class Solution:
         total = 0
         result = []
 
-        for i in nums:
+        hashMap = Counter(nums)
+
+        if hashMap[0] < 2:
             
-            if i != 0 and total != 0:
-                total *= i
-            elif i != 0 and total == 0:
-                total += i
+            for i in nums:    
+                if i != 0 and total != 0:
+                    total *= i
+                elif i != 0 and total == 0:
+                    total += i
         
         if 0 in nums:
             for i in nums:
