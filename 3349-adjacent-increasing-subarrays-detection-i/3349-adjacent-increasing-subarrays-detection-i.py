@@ -1,7 +1,6 @@
 class Solution:
     def hasIncreasingSubarrays(self, nums: List[int], k: int) -> bool:
  
-
         increasing = 1
         prevIncreasing = 0
 
