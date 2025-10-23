@@ -1,8 +1,9 @@
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         
-        hashMap = Counter(nums)
+        result = 0
 
-        for i in nums:
-            if hashMap[i] == 1:
-                return i
+        for n in nums:
+            result ^= n
+            
+        return result
