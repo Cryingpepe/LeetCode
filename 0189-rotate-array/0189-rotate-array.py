@@ -6,6 +6,9 @@ class Solution:
         
         k = k % len(nums)
 
-        for i in range(k):
-            right = nums.pop()
-            nums.insert(0, right)
+        # for i in range(k):
+        #     right = nums.pop()
+        #     nums.insert(0, right)
+
+        if k != 0:
+            nums[:k], nums[k:] = nums[-k:], nums[:-k]
