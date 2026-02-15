@@ -1,24 +1,32 @@
-class Solution(object):
-    def addBinary(self, a, b):
-        """
-        :type a: str
-        :type b: str
-        :rtype: str
-        """
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
         
-        i, j = len(a) - 1, len(b) - 1
+        n = max(len(a), len(b))
+        a = a.zfill(n)
+        b = b.zfill(n)
+
+        # 결과 배열 미리 생성
+        result = ['0'] * n
         carry = 0
-        result = []
 
-        while i >= 0 or j >= 0 or carry:
-            if i >= 0:
-                carry += int(a[i])
-                i -= 1
-            if j >= 0:
-                carry += int(b[j])
-                j -= 1
+        # 오른쪽부터 계산
+        for i in range(n - 1, -1, -1):
+            total = int(a[i]) + int(b[i]) + carry
 
-            result.append(str(carry % 2))
-            carry = carry // 2
+            if total == 0:
+                result[i] = '0'
+                carry = 0
+            elif total == 1:
+                result[i] = '1'
+                carry = 0
+            elif total == 2:
+                result[i] = '0'
+                carry = 1
+            else:  # total == 3
+                result[i] = '1'
+                carry = 1
 
-        return ''.join(reversed(result))
+        if carry == 1:
+            result.insert(0, '1')
+
+        return ''.join(result)
