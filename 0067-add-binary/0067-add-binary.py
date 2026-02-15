@@ -5,11 +5,9 @@ class Solution:
         a = a.zfill(n)
         b = b.zfill(n)
 
-        # 결과 배열 미리 생성
         result = ['0'] * n
         carry = 0
 
-        # 오른쪽부터 계산
         for i in range(n - 1, -1, -1):
             total = int(a[i]) + int(b[i]) + carry
 
