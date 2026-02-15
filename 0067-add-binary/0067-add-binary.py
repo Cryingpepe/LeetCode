@@ -1,30 +1,24 @@
-class Solution:
-    def addBinary(self, a: str, b: str) -> str:
+class Solution(object):
+    def addBinary(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
         
-        n = max(len(a), len(b))
-        a = a.zfill(n)
-        b = b.zfill(n)
-
-        result = ['0'] * n
+        i, j = len(a) - 1, len(b) - 1
         carry = 0
+        result = []
 
-        for i in range(n - 1, -1, -1):
-            total = int(a[i]) + int(b[i]) + carry
+        while i >= 0 or j >= 0 or carry:
+            if i >= 0:
+                carry += int(a[i])
+                i -= 1
+            if j >= 0:
+                carry += int(b[j])
+                j -= 1
 
-            if total == 0:
-                result[i] = '0'
-                carry = 0
-            elif total == 1:
-                result[i] = '1'
-                carry = 0
-            elif total == 2:
-                result[i] = '0'
-                carry = 1
-            else:  # total == 3
-                result[i] = '1'
-                carry = 1
+            result.append(str(carry % 2))
+            carry = carry // 2
 
-        if carry == 1:
-            result.insert(0, '1')
-
-        return ''.join(result)
+        return ''.join(reversed(result))
