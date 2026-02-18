@@ -16,7 +16,7 @@ class Solution:
                 
                 n >>= 1
 
-        if n & 1 == 0:
+        else:
             while n > 0:
                 if n & 1:
                     return False
