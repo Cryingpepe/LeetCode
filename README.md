@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Cryingpepe/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [1470-shuffle-the-array](https://github.com/Cryingpepe/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
