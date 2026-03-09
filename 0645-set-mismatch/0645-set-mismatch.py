@@ -1,7 +1,7 @@
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
 
-        count = [0] * (len(nums) + 1)
+        count = [0] * (len(nums))
 
         for i in range(len(nums)):
             count[nums[i] - 1] += 1
