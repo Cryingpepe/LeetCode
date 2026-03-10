@@ -1,17 +1,30 @@
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         
-        result = [0] * len(nums)
+        # result = [0] * len(nums)
 
-        for i in range(len(nums)):
+        # for i in range(len(nums)):
 
-            count = 0
+        #     count = 0
             
-            for j in range(len(nums)):
+        #     for j in range(len(nums)):
 
-                if nums[i] > nums[j]:
-                    count += 1
+        #         if nums[i] > nums[j]:
+        #             count += 1
 
-            result[i] = count
+        #     result[i] = count
 
+        # return result
+
+        sorted_nums = sorted(nums)
+        
+        num_to_count = {}
+        for i, num in enumerate(sorted_nums):
+            if num not in num_to_count:
+                num_to_count[num] = i
+                
+        result = []
+        for num in nums:
+            result.append(num_to_count[num])
+            
         return result
