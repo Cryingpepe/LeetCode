@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0645-set-mismatch](https://github.com/Cryingpepe/LeetCode/tree/main/0645-set-mismatch/) | Easy |
+| [1009-complement-of-base-10-integer](https://github.com/Cryingpepe/LeetCode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
