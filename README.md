@@ -108,4 +108,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
 <!---LeetCode Topics End-->
