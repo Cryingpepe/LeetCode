@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/Cryingpepe/LeetCode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0025-reverse-nodes-in-k-group](https://github.com/Cryingpepe/LeetCode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
