@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Cryingpepe/LeetCode/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
+| [3643-flip-square-submatrix-vertically](https://github.com/Cryingpepe/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/Cryingpepe/LeetCode/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
+| [3643-flip-square-submatrix-vertically](https://github.com/Cryingpepe/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -106,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/Cryingpepe/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Cryingpepe/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0075-sort-colors](https://github.com/Cryingpepe/LeetCode/tree/main/0075-sort-colors/) | Medium |
+| [3643-flip-square-submatrix-vertically](https://github.com/Cryingpepe/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
