@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0131-palindrome-partitioning](https://github.com/Cryingpepe/LeetCode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Cryingpepe/LeetCode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
@@ -90,6 +91,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0047-permutations-ii](https://github.com/Cryingpepe/LeetCode/tree/main/0047-permutations-ii/) | Medium |
+| [0131-palindrome-partitioning](https://github.com/Cryingpepe/LeetCode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -145,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Cryingpepe/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0131-palindrome-partitioning](https://github.com/Cryingpepe/LeetCode/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
