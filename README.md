@@ -132,10 +132,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
+| [0100-same-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0100-same-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
+| [0100-same-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0100-same-tree/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -144,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0099-recover-binary-search-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0099-recover-binary-search-tree/) | Medium |
+| [0100-same-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0100-same-tree/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -165,4 +168,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0595-big-countries](https://github.com/Cryingpepe/LeetCode/tree/main/0595-big-countries/) | Easy |
 | [1148-article-views-i](https://github.com/Cryingpepe/LeetCode/tree/main/1148-article-views-i/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/Cryingpepe/LeetCode/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0100-same-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0100-same-tree/) | Easy |
 <!---LeetCode Topics End-->
