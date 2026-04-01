@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Cryingpepe/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1470-shuffle-the-array](https://github.com/Cryingpepe/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Cryingpepe/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2906-construct-product-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
@@ -93,12 +94,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0047-permutations-ii](https://github.com/Cryingpepe/LeetCode/tree/main/0047-permutations-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/Cryingpepe/LeetCode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0645-set-mismatch](https://github.com/Cryingpepe/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/Cryingpepe/LeetCode/tree/main/1009-complement-of-base-10-integer/) | Easy |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Counting Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -107,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Cryingpepe/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -172,4 +176,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/Cryingpepe/LeetCode/tree/main/0100-same-tree/) | Easy |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
+## Enumeration
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 <!---LeetCode Topics End-->
