@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0160-intersection-of-two-linked-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Cryingpepe/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Cryingpepe/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
 | [0645-set-mismatch](https://github.com/Cryingpepe/LeetCode/tree/main/0645-set-mismatch/) | Easy |
@@ -122,12 +123,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/Cryingpepe/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Cryingpepe/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0075-sort-colors](https://github.com/Cryingpepe/LeetCode/tree/main/0075-sort-colors/) | Medium |
+| [0160-intersection-of-two-linked-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/Cryingpepe/LeetCode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0025-reverse-nodes-in-k-group](https://github.com/Cryingpepe/LeetCode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
+| [0160-intersection-of-two-linked-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
