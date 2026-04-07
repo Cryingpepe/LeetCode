@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/Cryingpepe/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Cryingpepe/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0047-permutations-ii](https://github.com/Cryingpepe/LeetCode/tree/main/0047-permutations-ii/) | Medium |
+| [0048-rotate-image](https://github.com/Cryingpepe/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0075-sort-colors](https://github.com/Cryingpepe/LeetCode/tree/main/0075-sort-colors/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Cryingpepe/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Cryingpepe/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/Cryingpepe/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Cryingpepe/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [2906-construct-product-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/2906-construct-product-matrix/) | Medium |
@@ -110,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/Cryingpepe/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Cryingpepe/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Stack
