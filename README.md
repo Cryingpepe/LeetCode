@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/Cryingpepe/LeetCode/tree/main/1365-how-many-numbers-are-smaller-than-the-current-number/) | Easy |
 | [1470-shuffle-the-array](https://github.com/Cryingpepe/LeetCode/tree/main/1470-shuffle-the-array/) | Easy |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/Cryingpepe/LeetCode/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
+| [1848-minimum-distance-to-the-target-element](https://github.com/Cryingpepe/LeetCode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/Cryingpepe/LeetCode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
