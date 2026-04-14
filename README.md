@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0131-palindrome-partitioning](https://github.com/Cryingpepe/LeetCode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0171-excel-sheet-column-number](https://github.com/Cryingpepe/LeetCode/tree/main/0171-excel-sheet-column-number/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Cryingpepe/LeetCode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/Cryingpepe/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Cryingpepe/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
+| [0171-excel-sheet-column-number](https://github.com/Cryingpepe/LeetCode/tree/main/0171-excel-sheet-column-number/) | Easy |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
