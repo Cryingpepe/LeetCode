@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Cryingpepe/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/Cryingpepe/LeetCode/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Cryingpepe/LeetCode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Cryingpepe/LeetCode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/Cryingpepe/LeetCode/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/Cryingpepe/LeetCode/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
