@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/Cryingpepe/LeetCode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
+| [0231-power-of-two](https://github.com/Cryingpepe/LeetCode/tree/main/0231-power-of-two/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/Cryingpepe/LeetCode/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0231-power-of-two](https://github.com/Cryingpepe/LeetCode/tree/main/0231-power-of-two/) | Easy |
 | [0645-set-mismatch](https://github.com/Cryingpepe/LeetCode/tree/main/0645-set-mismatch/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/Cryingpepe/LeetCode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
@@ -122,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/Cryingpepe/LeetCode/tree/main/0048-rotate-image/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/Cryingpepe/LeetCode/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0171-excel-sheet-column-number](https://github.com/Cryingpepe/LeetCode/tree/main/0171-excel-sheet-column-number/) | Easy |
+| [0231-power-of-two](https://github.com/Cryingpepe/LeetCode/tree/main/0231-power-of-two/) | Easy |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Cryingpepe/LeetCode/tree/main/1863-sum-of-all-subset-xor-totals/) | Easy |
 | [3783-mirror-distance-of-an-integer](https://github.com/Cryingpepe/LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Stack
