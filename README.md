@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Cryingpepe/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/Cryingpepe/LeetCode/tree/main/0015-3sum/) | Medium |
 | [0042-trapping-rain-water](https://github.com/Cryingpepe/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0047-permutations-ii](https://github.com/Cryingpepe/LeetCode/tree/main/0047-permutations-ii/) | Medium |
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Cryingpepe/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/Cryingpepe/LeetCode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Cryingpepe/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/Cryingpepe/LeetCode/tree/main/0448-find-all-numbers-disappeared-in-an-array/) | Easy |
